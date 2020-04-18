@@ -178,3 +178,17 @@ hr{
     transform: scale(1.5);
 }
 
+
+@media only screen and (max-width: 600px) {
+    body {
+      background: 
+      linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
+      linear-gradient(225deg, black 25%, transparent 25%) -50px 0,
+      linear-gradient(315deg, black 25%, transparent 25%),
+      linear-gradient(45deg, black 25%, transparent 25%);	
+      background-size: cover;
+    background-color: #000000;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    }
+  }
