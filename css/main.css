@@ -17,7 +17,6 @@
   body { 
     background: url('../images/background3.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
-    -webkit-overflow-scrolling: touch;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -180,4 +179,11 @@ hr{
 
 .mail a:hover{
     transform: scale(1.5);
+}
+
+@media only screen and (max-device-width: 480px) {
+    html {
+      height: calc(100% + 60px);
+      min-height: calc(100% + 60px);
+    }
 }
