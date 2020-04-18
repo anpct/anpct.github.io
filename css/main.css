@@ -173,3 +173,7 @@ hr{
 .mail p{
     color:white;
 }
+
+.mail a:hover{
+    transform: scale(1.5);
+}
