@@ -189,7 +189,6 @@ hr{
         -o-background-size: cover;
         background-size: cover;
         background-position: center center;
-        background-attachment: fixed;
         background-color: #000000;
         overflow-x: hidden;
         overflow-y: auto;
