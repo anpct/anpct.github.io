@@ -7,13 +7,14 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Anoop Thiparala</title>
-        <meta name="description" content="">
+        <meta name="description" content="Anoop Thiparala">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="../anpct.github.io/images/logo_pixteller_zYn_icon.ico" type="image/ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">  
         <link rel="stylesheet" href="../anpct.github.io/css/main.css">
         <link rel="stylesheet" href="../anpct.github.io/animations/css3-animate-it-master/css/animations.css">
         <link rel="stylesheet" href="../anpct.github.io/animations/css3-animate-it-master/css/animations-ie-fix.css">
-        
     </head>
     
         <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -41,10 +42,10 @@
                   <a class="nav-link" href="#skills">Skills</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Projects</a>
+                  <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="#contact">Contact</a>
                 </li>
               </ul>
             </div>
@@ -59,7 +60,6 @@
           </h1>
         </div>
         </div>
-
         <div class="main-body">
           <main class="custom-container " id="about">
             <div class="card mb-3  about-card animatedParent animateOnce" >
@@ -76,11 +76,6 @@
                          <h6>Hi I am Anoop</h6>
                        </div>
                      </div>
-                     <div class="card me-card animated bounceInRight slowest">
-                      <div class="card-body">
-                        <h6>I am currently 22 years old and I am residing in Hyderabad</h6>
-                      </div>
-                    </div>
                     <div class="card me-card animated bounceInRight slowest">
                       <div class="card-body">
                         <h6>I am an aspiring developer with multiple personal and professional projects.</h6>
@@ -107,14 +102,14 @@
               </div>
             </div>
           </main>
-          <main class="custom-container animatedParent animateOnce" id="skills">
-            <div class="card mb-3 animated bounceInRight slowest skills-card" >
+          <main class="custom-container animatedParent" id="skills">
+            <div class="card mb-3 animated growIn slowest skills-card" >
                   <div class="card-body ">
                     <div class="row head-row">
                       <h1>Skills</h1>
                     </div>
                     <hr/>
-                    <div class="row logo-row row-cols-1 row-cols-sm-3 row-cols-md-6">
+                    <div class="row logo-row row-cols-1 row-cols-sm-2 row-cols-md-4">
                       <div class="col  logo">
                         <a href="https://www.python.org/" target="_blank">
                         <img src="../anpct.github.io/images/skills/python.png"/>
@@ -178,6 +173,103 @@
                       </div>
                     </div>
                     </div>
+            </div>
+          </main>
+          <main class="custom-container animatedParent" id="projects">
+            <div class="card-columns">
+              <div class="card bg-primary text-white text-center p-2 p-card-main animated shakeUp slowest" id="projects">
+                <h3>My Projects</h3>
+            </div>
+              <div class="card text-center text-white bg-dark p-card animated fadeInLeftShort slowest">
+                <div class="card-header">
+                  MRIET FEEDBACK
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">A feedback website.</h5>
+                  <p class="card-text">Feedback system for MRIET college using flask.</p>
+                  <a href=" https://mriet.herokuapp.com/" class="btn btn-primary">VISIT SITE</a>
+                </div>
+                <div class="card-footer text-muted">
+                  Flask, MongoDB, CSS, HTML, JS, Heroku
+                </div>
+              </div>
+              <div class="card text-center text-white bg-dark p-card animated  fadeInLeftShort slowest">
+                <div class="card-header">
+                  QUIZ TIME
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">A web based quiz app.</h5>
+                  <p class="card-text">Simple quiz app using the django framework.</p>
+                  <a href="https://github.com/anpct/quiz" class="btn btn-primary">VISIT REPO</a>
+                </div>
+                <div class="card-footer text-muted">
+                  Django, HTML, CSS, JS, MySQL
+                </div>
+              </div>
+              <div class="card text-center text-white bg-dark p-card animated fadeInDownShort  slowest">
+                <div class="card-header">
+                  CONMETER
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">A review website.</h5>
+                  <p class="card-text">Conmeter is an dynamic website whose main concept is to assess the trustworthiness of other websites through reviews.</p>
+                  <a href="https://conmeter.com/" class="btn btn-primary">VISIT SITE</a>
+                </div>
+                <div class="card-footer text-muted">
+                  Django, HTML, CSS, JS, Jquery
+                </div>
+              </div>
+              <div class="card text-center text-white bg-dark p-card animated fadeInUpShort slowest">
+                <div class="card-header">
+                  PAY UP
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">A billing app.</h5>
+                  <p class="card-text">Billing system using tKinter and mysql database coded in python.</p>
+                  <a href="https://github.com/anpct/Billing-System" class="btn btn-primary">VISIT REPO</a>
+                </div>
+                <div class="card-footer text-muted">
+                  Python, MySQL, tKinter
+                </div>
+              </div>
+              <div class="card text-center text-white bg-dark p-card animated fadeInRightShort slowest">
+                <div class="card-header">
+                  ANONIMAGE
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Anonymous image sharing website.</h5>
+                  <p class="card-text">Anonimage is a mobile friendly web app that uses machine learning to assess the quality of anonymously shared images.</p>
+                  <a href="https://github.com/anpct/Anonimage" class="btn btn-primary">VISIT REPO</a>
+                </div>
+                <div class="card-footer text-muted">
+                  Django, ReactJS, HTML, CSS, Redux
+                </div>
+              </div>
+              <div class="card text-center text-white bg-dark p-card animated fadeInRightShort slowest">
+                <div class="card-header">
+                  REMIND ME!!
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">A web app to set reminders.</h5>
+                  <p class="card-text">This is an online remainder system coded using the flask framework with email integration.</p>
+                  <a href="https://github.com/anpct/Remainder-system" class="btn btn-primary">VISIT REPO</a>
+                </div>
+                <div class="card-footer text-muted">
+                  Flask, HTML, CSS, JS, MySQL
+                </div>
+              </div>
+            </div>
+          </main>
+          <main class="custom-container animatedParent" id="contact">
+            <div class="row head-row">
+              <h1>Contact me</h1>
+            </div>
+            <div class="row links animated bounceIn slowest">
+              <a href="https://github.com/anpct" target="_blank" data-toggle="tooltip" title="Github"><i class="fab fa-github fa-3x"></i></a>
+              <a href="https://www.facebook.com/acthiparala" target="_blank" data-toggle="tooltip" title="Facebook"><i class="fab fa-facebook fa-3x"></i></a>
+            </div>
+            <div class="row mail animated bounceIn slowest">
+              <a href="mailto:anthiparala@gmail.com"><p>anthiparala@gmail.com</p></a>
             </div>
           </main>
       </div>

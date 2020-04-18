@@ -46,7 +46,7 @@
 }
 
 .custom-container{
-    padding: 2rem;
+    padding: 5rem;
     overflow-x: hidden;
 }
 
@@ -137,4 +137,39 @@ hr{
 .main-body{
     margin: auto;
     position: absolute;
+}
+
+.p-card{
+    background: rgba(6, 4, 20, 0.9) !important;
+}
+
+.p-card-main{
+    background: rgba(0, 0, 0, 0.9) !important;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.links i{
+    color: white;
+    padding: 20px;
+}
+
+.links i:hover{
+    transform: scale(1.5); 
+}
+
+.mail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.mail p{
+    color:white;
 }
