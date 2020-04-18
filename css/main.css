@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Disolve;
+    src: url('../fonts/Disolve_regular.ttf');
+  }
+
+@font-face {
+    font-family: CosmicNeue;
+    src: url('../fonts/ComicNeue-Bold.ttf');
+  }
+
+
+  body { 
+    background: url('../images/background.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.main-back{
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar{
+    background: transparent!important;
+}
+
+.navbar-brand{
+    font-family: disolve!important;
+    font-size: xx-large !important;
+    
+}
+
+.navbar a{
+    color: white!important;
+    font-size: large;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255)!important;
+}
+
+.custom-card{
+  display: grid;
+  grid-template-columns: 1fr,1fr;
+  grid-gap: 2rem;
+  background: #f1f1f1;
+  margin-bottom: 2rem;
+}
+
+.custom-card-image img{
+    height: 400px;
+    width: 300px;
+}
+
+.custom-container{
+    margin: auto;
+    padding: 5rem;
+    height: 100vh;
+    width: 100vw;
+}
+
+.title h1{
+    font-family: CosmicNeue;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+
+.title{
+    display: flex;
+    align-self: center;
+    align-content: center;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 10%;
+}
+
+@media(max-width:600px) {
+    .custom-card {
+      display: block; 
+      width: 300px;
+    }
+  }
