@@ -16,7 +16,7 @@
         
     </head>
     
-        <body>
+        <body data-spy="scroll" data-target=".navbar" data-offset="50">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -34,6 +34,9 @@
             <!-- Navbar links -->
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
               <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About me</a>
+                </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#skills">Skills</a>
                 </li>
@@ -53,29 +56,60 @@
             <span
                class="txt-rotate"
                data-period="500"
-               data-rotate='[ "Hi I am Anoop Thiparala.", "And I am a full stack developer." ]'></span>
+               data-rotate='[ "print(\"Hi I am Anoop Thiparala.\")", "print(\"And I am a full stack developer\".)" ]'></span>
           </h1>
         </div>
 
         </div>
-          <main class="custom-container animatedParent">
-            <div class="card mb-3 animated bounceInLeft">
+          <main class="custom-container " id="about">
+            <div class="card mb-3  about-card animatedParent animateOnce" >
               <div class="row no-gutters">
-                <div class="col-md-4">
+                <div class="col-md-4 animated bounceInLeft slowest">
                   <img src="../anpct.github.io/images/me.jpg" class="card-img" alt="me">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 animated bounceInRight slowest">
                   <div class="card-body">
-                    <h5 class="card-title">About me</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                   <div class="row head-row"><h1>About me</h1></div>
+                   <div class="row row-about-body">
+                     <div class="card me-card animated bounceInRight slowest">
+                       <div class="card-body ">
+                         <h6>Hi I am Anoop</h6>
+                       </div>
+                     </div>
+                     <div class="card me-card animated bounceInRight slowest">
+                      <div class="card-body">
+                        <h6>I am currently 22 years old and I am residing in Hyderabad</h6>
+                      </div>
+                    </div>
+                    <div class="card me-card animated bounceInRight slowest">
+                      <div class="card-body">
+                        <h6>I am an aspiring developer with multiple personal and professional projects.</h6>
+                      </div>
+                    </div>
+                    <div class="card me-card animated bounceInRight slowest">
+                      <div class="card-body">
+                        <h6>I have worked on various projects spanning multiple domains and technologies.</h6>
+                      </div>
+                    </div>
+                    <div class="card me-card animated bounceInRight slowest">
+                      <div class="card-body">
+                        <h6>I always try to seek new challenges and love to explore new technologies.</h6>
+                      </div>
+                    </div>
+                    <div class="card me-card animated bounceInRight slowest">
+                      <div class="card-body">
+                        <h6>As an avid developer I am always ready to collaborate with other on their projects.</h6>
+                      </div>
+                    </div>
+                   </div>
                   </div>
                 </div>
               </div>
             </div>
           </main>
 
-          <main class="custom-container animatedParent" id="#skills">
-            <div class="card mb-3 animated bounceInRight" >
+          <main class="custom-container animatedParent animateOnce" id="skills">
+            <div class="card mb-3 animated bounceInRight slowest skills-card" >
                   <div class="card-body ">
                     <div class="row head-row">
                       <h1>Skills</h1>
