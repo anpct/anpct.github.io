@@ -181,16 +181,17 @@ hr{
     transform: scale(1.5);
 }
 
-@media only screen and (max-device-width: 480px) {
-    body { 
-        background: url('../images/bgm.jpg') no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position: center center;
-        background-color: #000000;
-        overflow-x: hidden;
-        overflow-y: auto;
-      }
-}
+@mixin vh-fix {
+    @media (max-device-aspect-ratio: 3/4) {
+      height: calc(100vw * 1.333 - 9%);
+    }
+    @media (max-device-aspect-ratio: 2/3) {
+      height: calc(100vw * 1.5 - 9%);
+    }
+    @media (max-device-aspect-ratio: 10/16) {
+      height: calc(100vw * 1.6 - 9%);
+    }
+    @media (max-device-aspect-ratio: 9/16) {
+      height: calc(100vw * 1.778 - 9%);
+    }
+  }
