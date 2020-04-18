@@ -181,14 +181,12 @@ hr{
 
 @media only screen and (max-width: 600px) {
     body {
-      background: 
-      linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
-      linear-gradient(225deg, black 25%, transparent 25%) -50px 0,
-      linear-gradient(315deg, black 25%, transparent 25%),
-      linear-gradient(45deg, black 25%, transparent 25%);	
-      background-size: cover;
-    background-color: #000000;
-    overflow-x: hidden;
-    overflow-y: scroll;
+background: 
+  linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
+  linear-gradient(225deg, black 25%, transparent 25%) -50px 0,
+  linear-gradient(315deg, black 25%, transparent 25%),
+  linear-gradient(45deg, black 25%, transparent 25%);	
+  background-size: 2em 2em !important;
+  background-color: #232323 !important;
     }
   }
